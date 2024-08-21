@@ -9,7 +9,8 @@ apt install fastfetch -y
 apt install curl -y
 apt install tmux -y
 apt install gnome-shell-extension-manager -y
-apd install make -y
+apt install make -y
+apt install gcc -y
 snap install code --classic
 snap install chromium
 snap install gimp
