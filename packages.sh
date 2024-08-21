@@ -8,6 +8,7 @@ git config --global user.email "developer@jrstrunk.com"
 apt install fastfetch -y
 apt install curl -y
 apt install tmux -y
+apt install gnome-shell-extension-manager -y
 snap install code --classic
 snap install chromium
 snap install gimp
