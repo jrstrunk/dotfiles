@@ -1,0 +1,45 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo" : {
+    "source": "ubuntu_old"
+  },
+  "display": {
+    "size": {
+      "binaryPrefix": "jedec"
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    {
+      "type": "memory",
+      "format": "{2} ({3})"
+    },
+    {
+      "type": "swap",
+      "format": "{2} ({3})"
+    },
+    {
+      "type": "cpu",
+      "format": "Core i5-7400 x4 (5472)"
+    },
+    {
+      "type": "gpu",
+      "key": "GPU (Integrated)",
+      "format": "HD 630 (1110)"
+    },
+    {
+      "type": "disk",
+      "format": "{2} - {9} ({3})"
+    },
+    "uptime",
+    {
+      "type": "localip",
+      "key": "Local IP"
+    },
+    "break",
+    "colors"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo" : {
+    "source": "ubuntu_old"
+  },
+  "display": {
+    "size": {
+      "binaryPrefix": "jedec"
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    {
+      "type": "memory",
+      "format": "{2} ({3})"
+    },
+    {
+      "type": "swap",
+      "format": "{2} ({3})"
+    },
+    {
+      "type": "cpu",
+      "format": "Core i7-12700F x12 (30673)"
+    },
+    {
+      "type": "gpu",
+      "format": "Radeon RX 6900 XT (26836)"
+    },
+    {
+      "type": "disk",
+      "format": "{2} - {9} ({3})"
+    },
+    "uptime",
+    {
+      "type": "localip",
+      "key": "Local IP"
+    },
+    "break",
+    "colors"
+  ]
+}
