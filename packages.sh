@@ -11,6 +11,7 @@ apt install tmux -y
 apt install gnome-shell-extension-manager -y
 apt install make -y
 apt install gcc -y
+apt install gawk -y
 snap install code --classic
 snap install chromium
 snap install gimp
