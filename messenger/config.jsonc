@@ -9,13 +9,13 @@
     "title",
     "separator",
     "kernel",
-    "shell",
     "board",
     {
       "type": "command",
       "text": "echo 'Edge'",
       "key": "Chassis"
     },
+    "shell",
     {
       "type": "memory",
       "format": "{2} ({3})"
@@ -37,12 +37,17 @@
       "type": "disk",
       "format": "{2} - {9} ({3})"
     },
-    "uptime",
-    "datetime",
+    {
+      "type": "command",
+      "key": "Network Adapter",
+      "text": "echo '2.5Gb Ethernet x4'"
+    },
     {
       "type": "localip",
       "key": "Local IP"
     },
+    "datetime",
+    "uptime",
     "break",
     "colors"
   ]
