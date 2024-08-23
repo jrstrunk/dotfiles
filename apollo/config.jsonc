@@ -12,7 +12,14 @@
     "title",
     "separator",
     "os",
-    "host",
+    {
+      "type": "host",
+      "format": "{2}"
+    },
+    {
+      "type": "chassis",
+      "format": "{2} {1}"
+    },
     {
       "type": "memory",
       "format": "{2} ({3})"
@@ -34,11 +41,17 @@
       "type": "disk",
       "format": "{2} - {9} ({3})"
     },
-    "uptime",
+    {
+      "type": "command",
+      "key": "Network Adapter",
+      "text": "echo '1Gb Ethernet'"
+    },
     {
       "type": "localip",
       "key": "Local IP"
     },
+    "datetime",
+    "uptime",
     "break",
     "colors"
   ]

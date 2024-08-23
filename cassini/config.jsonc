@@ -14,6 +14,10 @@
     "os",
     "host",
     {
+      "type": "chassis",
+      "format": "{2} {1}"
+    },
+    {
       "type": "memory",
       "format": "{2} ({3})"
     },
@@ -34,11 +38,17 @@
       "type": "disk",
       "format": "{2} - {9} ({3})"
     },
-    "uptime",
+    {
+      "type": "command",
+      "key": "Network Adapter",
+      "text": "echo '1Gb Ethernet x2'"
+    },
     {
       "type": "localip",
       "key": "Local IP"
     },
+    "datetime",
+    "uptime",
     "break",
     "colors"
   ]
