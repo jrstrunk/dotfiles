@@ -9,8 +9,8 @@
       "title",
       "separator",
       "os",
-      "host",
       "kernel",
+      "host",
       {
         "type": "command",
         "key": "Chassis",
