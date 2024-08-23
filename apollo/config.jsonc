@@ -12,6 +12,7 @@
     "title",
     "separator",
     "os",
+    "kernel",
     {
       "type": "host",
       "format": "{2}"

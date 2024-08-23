@@ -12,7 +12,11 @@
     "title",
     "separator",
     "os",
-    "host",
+    "kernel",
+    {
+      "type": "host",
+      "format": "{2}"
+    },
     {
       "type": "chassis",
       "format": "{1}"

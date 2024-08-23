@@ -8,6 +8,11 @@
   "modules": [
     "title",
     "separator",
+    {
+      "type": "command",
+      "text": "echo 'OPNsense 23.7.9-amd64'",
+      "key": "OS"
+    },
     "kernel",
     "board",
     {
