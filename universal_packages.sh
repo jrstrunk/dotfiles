@@ -2,6 +2,7 @@
 
 add-apt-repository ppa:zhangsongcui3371/fastfetch
 apt update
+
 apt install git -y
 git config --global user.name "John Strunk"
 git config --global user.email "developer@jrstrunk.com"

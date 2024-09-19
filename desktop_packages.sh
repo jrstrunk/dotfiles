@@ -1,3 +1,5 @@
+#!/bin/bash
+
 apt install gnome-shell-extension-manager -y
 
 snap install code --classic
