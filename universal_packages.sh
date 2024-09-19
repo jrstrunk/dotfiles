@@ -7,16 +7,7 @@ git config --global user.name "John Strunk"
 git config --global user.email "developer@jrstrunk.com"
 apt install fastfetch -y
 apt install curl -y
-apt install tmux -y
-apt install gnome-shell-extension-manager -y
 apt install make -y
 apt install gcc -y
 apt install gawk -y
-apt install podman-docker -y
-snap install code --classic
-snap install chromium
-snap install gimp
-snap install vlc
-snap install spotify
-snap install signal-desktop
-snap install bitwarden
+apt install openssh-server -y
